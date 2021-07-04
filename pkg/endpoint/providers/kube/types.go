@@ -16,4 +16,5 @@ type Client struct {
 	providerIdent  string
 	kubeClient     kubernetes.Interface
 	kubeController k8s.Controller
+	
 }
